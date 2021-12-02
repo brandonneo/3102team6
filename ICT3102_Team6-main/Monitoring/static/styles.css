@@ -1,0 +1,21 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container .item {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.inside-item {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

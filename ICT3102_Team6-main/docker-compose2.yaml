@@ -1,0 +1,44 @@
+version: "3.8"
+services:
+  nginx:
+    container_name: nginx
+    build: ./nginxold
+    ports:
+      - "80:80"
+    depends_on:
+      - app1
+      - app2
+
+  ## OLD ARCHITECTURE
+  app1:
+    container_name: app1
+    restart: always
+    build: ./ServerOld
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/code
+    expose:
+      - "5001"
+    mem_limit: 64M
+    cpus: 0.3
+  app2:
+    container_name: app2
+    restart: always
+    build: ./ServerOld
+    ports:
+      - "5002:5000"
+    volumes:
+      - .:/code
+    expose:
+      - "5002"
+    mem_limit: 64M
+    cpus: 0.3
+  mongo:
+    container_name: mongo
+    image: mongo:latest
+    command: mongod --port 27017 --wiredTigerCacheSizeGB 0.25
+    ports:
+      - "27017:27017"
+    mem_limit: 256M
+    cpus: 0.2

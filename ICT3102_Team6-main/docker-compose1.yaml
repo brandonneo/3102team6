@@ -1,0 +1,143 @@
+version: "3.8"
+services:
+  nginx:
+    container_name: nginx
+    build: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - app1
+      - app2
+    mem_limit: 32M
+    cpus: 0.1
+  # UPDATED ARCHITECTURE
+  monitoring:
+    container_name: monitoring
+    restart: always
+    build: ./Monitoring
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/code
+    expose:
+      - "4000"
+    mem_limit: 32M
+    cpus: 0.05
+  app1:
+    container_name: app1
+    restart: always
+    build: ./Server
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/code
+    expose:
+      - "5001"
+    environment:
+      - MONGOSCONNECTIONSTRING=mongodb://172.17.0.1:27018
+    mem_limit: 64M
+    cpus: 0.3
+  app2:
+    container_name: app2
+    restart: always
+    build: ./Server
+    ports:
+      - "5002:5000"
+    volumes:
+      - .:/code
+    expose:
+      - "5002"
+    environment:
+      - MONGOSCONNECTIONSTRING=mongodb://172.17.0.1:27019
+    mem_limit: 64M
+    cpus: 0.3
+  cfgsvr1:
+    container_name: cfgsvr1
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db --wiredTigerCacheSizeGB 0.25
+    ports:
+      - "40001:27017"
+    volumes:
+      - cfgsvr1:/data/dn
+    mem_limit: 256M
+    cpus: 0.2
+  s1:
+    container_name: s1
+    image: mongo
+    command: mongod --shardsvr --replSet shards1 --port 27017 --dbpath /data/db --wiredTigerCacheSizeGB 0.25
+    ports:
+      - "50001:27017"
+    volumes:
+      - s1:/data/db
+    mem_limit: 256M
+    cpus: 0.2
+  s3:
+    container_name: s3
+    image: mongo
+    command: mongod --shardsvr --replSet shards2 --port 27017 --dbpath /data/db --wiredTigerCacheSizeGB 0.25
+    ports:
+      - "50003:27017"
+    volumes:
+      - s3:/data/db
+    mem_limit: 256M
+    cpus: 0.2
+  mongos1:
+    container_name: mongos1
+    image: mongo:latest
+    command: mongos --configdb cfgrs/172.17.0.1:40001,172.17.0.1:40002 --bind_ip 0.0.0.0 --port 27017
+    ports:
+      - "27018:27017"
+    expose:
+      - "27018"
+    mem_limit: 64M
+    cpus: 0.05
+  mongos2:
+    container_name: mongos2
+    image: mongo:latest
+    command: mongos --configdb cfgrs/172.17.0.1:40001,172.17.0.1:40002 --bind_ip 0.0.0.0 --port 27017
+    ports:
+      - "27019:27017"
+    expose:
+      - "27019"
+    mem_limit: 64M
+    cpus: 0.05
+
+
+  ## UNUSED CONTAINERS DUE TO MEMORY LIMIT
+  # cfgsvr2:
+  #   container_name: cfgsvr2
+  #   image: mongo
+  #   command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
+  #   ports:
+  #     - "40002:27017"
+  #   volumes:
+  #     - cfgsvr2:/data/db
+  #   mem_limit: 128M
+  #   cpus: 0.05
+  # s4:
+  #   container_name: s4
+  #   image: mongo
+  #   command: mongod --shardsvr --replSet shards2 --port 27017 --dbpath /data/db
+  #   ports:
+  #     - "50004:27017"
+  #   volumes:
+  #     - s4:/data/db
+  #   mem_limit: 128M
+  #   cpus: 0.1
+  # s2:
+  #   container_name: s2
+  #   image: mongo
+  #   command: mongod --shardsvr --replSet shards1 --port 27017 --dbpath /data/db
+  #   ports:
+  #     - "50002:27017"
+  #   volumes:
+  #     - s2:/data/db
+  #   mem_limit: 128M
+  #   cpus: 0.1
+volumes:
+  cfgsvr1: {}
+  s1: {}
+  s3: {}
+  # cfgsvr2: {}
+  # s4: {}
+  # s2: {}

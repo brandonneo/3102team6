@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+<!-- Additional includes -->
+{% block head %} {% endblock %}
+<!-- Body content -->
+{% block body %}
+
+<h1>Monitoring Page</h1>
+<div class="flex-container">
+  {% for dic in data %}
+  <div class="item">
+    <h2>Staff id: {{dic["staff_id"]}}</h2>
+    <p>Recent Locations:</p>
+    <div class="inside-item">
+      <p>level: {{dic["level"]}}</p>
+      <p>Location: {{dic["location"]}}</p>
+      <p>Timestamp: {{dic["timestamp"]}}</p>
+      <p>Rssi: {{dic["rssi"]}}</p>
+      <p>mac: {{dic["mac"]}}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}
+<!-- Javascript -->
+{% block scripts %}
+<script>
+function loaddata()
+{
+  location.reload();
+}
+// every 30 seconds reload page = 30000ms
+setInterval(loaddata, 30000);
+  
+</script>
+
+{% endblock %}
