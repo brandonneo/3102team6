@@ -1,0 +1,43 @@
+Remember to update all AWS IP address before running the tests!
+
+------------------------------------------------------------------------------
+
+PERF-TP-1: Throughput for inserting detected beacon information from mobile to flask server (Same staff id)
+
+jmeter -n -l test-results-perf-tp-1.csv -e -o report-folder-perf-tp-1 -t PERF-TP-1.jmx
+
+------------------------------------------------------------------------------
+
+PERF-TP-1-1: Throughput for inserting detected beacon information from mobile to flask server (Different staff id)
+
+jmeter -n -l test-results-perf-tp-1-1.csv -e -o report-folder-perf-tp-1-1 -t PERF-TP-1-1.jmx
+
+------------------------------------------------------------------------------
+
+PERF-TP-2: Throughput for extracting all user locations between flask server to HACS server 
+
+jmeter -n -l test-results-perf-tp-2.csv -e -o report-folder-perf-tp-2 -t PERF-TP-2.jmx
+
+------------------------------------------------------------------------------
+
+PREF-RT-1: Response time for inserting detected beacon information from mobile to flask server (Same staff id)
+
+jmeter -n -l test-results-perf-rt-1.csv -e -o report-folder-perf-rt-1 -t PERF-RT-1.jmx
+
+------------------------------------------------------------------------------
+
+PREF-RT-1-1: Response time for inserting detected beacon information from mobile to flask server (Different staff id)
+
+jmeter -n -l test-results-perf-rt-1-1.csv -e -o report-folder-perf-rt-1-1 -t PERF-RT-1-1.jmx
+
+------------------------------------------------------------------------------
+
+PERF-RT-2: Response time for extracting all user locations between flask server to HACS server. (Same staff id)
+
+jmeter -n -l test-results-perf-rt-2.csv -e -o report-folder-perf-rt-2 -t PERF-RT-2.jmx
+
+------------------------------------------------------------------------------
+
+PERF-RT-2-1: Response time for extracting all user locations between flask server to HACS server. (Different staff id)
+
+jmeter -n -l test-results-perf-rt-2-1.csv -e -o report-folder-perf-rt-2-1 -t PERF-RT-2-1.jmx

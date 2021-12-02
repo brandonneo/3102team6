@@ -1,0 +1,715 @@
+[{
+  "_id": {
+    "$oid": "614452fd4988e525f751b3b4"
+  },
+  "mac_address": "C2A628384B08",
+  "location": "Team 6 Beacon 1",
+  "level": "unknown"
+},{
+  "_id": {
+    "$oid": "614453bd4988e525f751b3b6"
+  },
+  "mac_address": "EB73768336D9",
+  "location": "Team 6 Beacon 2",
+  "level": "unknown"
+},{
+  "_id": {
+    "$oid": "6155155ac836eac22445c5e3"
+  },
+  "mac_address": "E87DA3949C60",
+  "location": "Cargo lift",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "61551591c836eac22445c5e4"
+  },
+  "mac_address": "D4B7AB9E92A4",
+  "location": "Passage lift",
+  "level": "PL3"
+},{
+  "_id": {
+    "$oid": "615515bac836eac22445c5e5"
+  },
+  "mac_address": "C6BC6C80E295",
+  "location": "Passage lift",
+  "level": "PL1"
+},{
+  "_id": {
+    "$oid": "615515dcc836eac22445c5e6"
+  },
+  "mac_address": "EA3142134386",
+  "location": "Passage lift",
+  "level": "PL2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f582"
+  },
+  "mac_address": "DE69F34B12FB",
+  "location": "Lvl 1 Fire Fighting Lobby",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f583"
+  },
+  "mac_address": "D7EBDC5A92B9",
+  "location": "Lvl 1 Fire Fighting Lobby",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f584"
+  },
+  "mac_address": "C43298D4E8B2",
+  "location": "Lvl 1 Fire Fighting Lobby",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f585"
+  },
+  "mac_address": "F3B1B290486D",
+  "location": "Student Club",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f586"
+  },
+  "mac_address": "D975F28047B3",
+  "location": "Foyer",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f587"
+  },
+  "mac_address": "DB45ECD1DF33",
+  "location": "Foyer",
+  "level": "Level 1"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f588"
+  },
+  "mac_address": "ECAC7EDCDF93",
+  "location": "LT2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f589"
+  },
+  "mac_address": "D7BFA52AA899",
+  "location": "LT2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58a"
+  },
+  "mac_address": "D249FA5CECA0",
+  "location": "LT2B Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58b"
+  },
+  "mac_address": "FDC14F4F7ED4",
+  "location": "LT2B Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58c"
+  },
+  "mac_address": "CC1DC599C10B",
+  "location": "LT2B Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58d"
+  },
+  "mac_address": "D4A58BB6DCAD",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58e"
+  },
+  "mac_address": "E0A4F1CBF31C",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f58f"
+  },
+  "mac_address": "CC2F5B7F9677",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f590"
+  },
+  "mac_address": "DFBC60C04884",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f591"
+  },
+  "mac_address": "E180324B7C78",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f592"
+  },
+  "mac_address": "F5C3E08B32D5",
+  "location": "SR2A Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f593"
+  },
+  "mac_address": "D48A42D20BE1",
+  "location": "Lvl 2 Lift Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f594"
+  },
+  "mac_address": "C343BC7CCF92",
+  "location": "Lvl 2 Lift Lobby",
+  "level": "Level 2"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f595"
+  },
+  "mac_address": "D1B4D89B73A7",
+  "location": "Lvl 4 Fire fighting Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f596"
+  },
+  "mac_address": "EC4FB474B11C",
+  "location": "Lvl 4 Fire fighting Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f597"
+  },
+  "mac_address": "F3514C561E0B",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f598"
+  },
+  "mac_address": "D2622D4F854E",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f599"
+  },
+  "mac_address": "CF1EBCE74C9C",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59a"
+  },
+  "mac_address": "CCE3EFDACB52",
+  "location": "SR4A Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59b"
+  },
+  "mac_address": "DA2D5CCB9488",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59c"
+  },
+  "mac_address": "D470075FDA87",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59d"
+  },
+  "mac_address": "DF037DD86E53",
+  "location": "SR4H Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59e"
+  },
+  "mac_address": "CCF3E1C929FD",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f59f"
+  },
+  "mac_address": "E1EB15371D96",
+  "location": "SR4E Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a0"
+  },
+  "mac_address": "F112F03A720D",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a1"
+  },
+  "mac_address": "ED23CBDF8B80",
+  "location": "SR4G Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a2"
+  },
+  "mac_address": "FA55EB6C23B4",
+  "location": "SR4A Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a3"
+  },
+  "mac_address": "D20FB4E0B1D5",
+  "location": "SR4A Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a4"
+  },
+  "mac_address": "C6D01D6A3FF4",
+  "location": "Lvl 4 Lift Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a5"
+  },
+  "mac_address": "F4D13305DE3A",
+  "location": "Lvl 4 Lift Lobby",
+  "level": "Level 4"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a6"
+  },
+  "mac_address": "D92C9A57F7CB",
+  "location": "SR5D Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a7"
+  },
+  "mac_address": "FDF4813F84DB",
+  "location": "Lvl 5 Fire fighting Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a8"
+  },
+  "mac_address": "EB3E5754BFBB",
+  "location": "SR5F Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5a9"
+  },
+  "mac_address": "DEE4570CB343",
+  "location": "SR5H Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5aa"
+  },
+  "mac_address": "F744E95AFEB4",
+  "location": "SR5D Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ab"
+  },
+  "mac_address": "EED4DE089809",
+  "location": "SR5C Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ac"
+  },
+  "mac_address": "F1E0D560AEFA",
+  "location": "Lvl 5 Lift Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ad"
+  },
+  "mac_address": "E4AEB8791C91",
+  "location": "Lvl 5 Lift Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ae"
+  },
+  "mac_address": "C53B43C6340A",
+  "location": "Lvl 5 Lift Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5af"
+  },
+  "mac_address": "C153830706A5",
+  "location": "Lvl 5 Lift Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b0"
+  },
+  "mac_address": "EF708283108E",
+  "location": "Lvl 5 Fire fighting Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b1"
+  },
+  "mac_address": "FED95EF5D4C7",
+  "location": "Lvl 5 Fire fighting Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b2"
+  },
+  "mac_address": "F1D6EC1553CD",
+  "location": "SR5F Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b3"
+  },
+  "mac_address": "E7F82CE7B318",
+  "location": "SR5C Lobby",
+  "level": "Level 5"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b4"
+  },
+  "mac_address": "DF69B5035B33",
+  "location": "Lvl 6 Fire fighting Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b5"
+  },
+  "mac_address": "F3FBA538EC62",
+  "location": "Lvl 6 Fire fighting Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b6"
+  },
+  "mac_address": "DA17557BCB38",
+  "location": "SR6A Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b7"
+  },
+  "mac_address": "F85E688B4B72",
+  "location": "SR6B Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b8"
+  },
+  "mac_address": "F28C771A175B",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5b9"
+  },
+  "mac_address": "E1A0FBAEA144",
+  "location": "Lvl 6 Fire fighting Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ba"
+  },
+  "mac_address": "ECE7966F39E9",
+  "location": "SR6E Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5bb"
+  },
+  "mac_address": "C22D0D9E578C",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5bc"
+  },
+  "mac_address": "DF1D0A9FE1E0",
+  "location": "SR6G Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5bd"
+  },
+  "mac_address": "F40C85E05D70",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5be"
+  },
+  "mac_address": "EEF85E5BDCED",
+  "location": "SR6A Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5bf"
+  },
+  "mac_address": "F68644A3A846",
+  "location": "SR6A Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c0"
+  },
+  "mac_address": "C48190F6DE4A",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c1"
+  },
+  "mac_address": "D17221428784",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c2"
+  },
+  "mac_address": "DDA334403026",
+  "location": "SR6H Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c3"
+  },
+  "mac_address": "C00123E26D45",
+  "location": "Lvl 6 Lift Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c4"
+  },
+  "mac_address": "ECA9A0061008",
+  "location": "Lvl 6 Lift Lobby",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c5"
+  },
+  "mac_address": "F798B9A7AC28",
+  "location": "ROOM 1",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c6"
+  },
+  "mac_address": "EB89094E2F11",
+  "location": "ROOM 2",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c7"
+  },
+  "mac_address": "DB6073C9C0A4",
+  "location": "ROOM 3",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c8"
+  },
+  "mac_address": "F32ED305DB62",
+  "location": "ROOM 4",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5c9"
+  },
+  "mac_address": "C88FA9B10AE8",
+  "location": "ROOM 5",
+  "level": "Level 6"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ca"
+  },
+  "mac_address": "EAC3938DDA2",
+  "location": "Level 7 Fire fighting Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5cb"
+  },
+  "mac_address": "D59761B61C6C",
+  "location": "Level 7 Fire fighting Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5cc"
+  },
+  "mac_address": "DB7ADA9F387B",
+  "location": "Level 7 Fire fighting Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5cd"
+  },
+  "mac_address": "CF8061AE8B38",
+  "location": "SR7B Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5ce"
+  },
+  "mac_address": "EF20D5A8BD8",
+  "location": "SR7B",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5cf"
+  },
+  "mac_address": "EB5F5BDD1443",
+  "location": "SR7C Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d0"
+  },
+  "mac_address": "CA4C2D0DA8BD",
+  "location": "SR7C Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d1"
+  },
+  "mac_address": "CBCE44CC874E",
+  "location": "SR7C",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d2"
+  },
+  "mac_address": "E268B2A4AE9A",
+  "location": "SR7C Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d3"
+  },
+  "mac_address": "CD5116F790EE",
+  "location": "SR7D Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d4"
+  },
+  "mac_address": "EC5D57A6C8F3",
+  "location": "SR7D Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d5"
+  },
+  "mac_address": "D6C01807A019",
+  "location": "SR7D",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d6"
+  },
+  "mac_address": "F511F9E15121",
+  "location": "SR7D",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d7"
+  },
+  "mac_address": "C4C4C1329EA2",
+  "location": "SR7D Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d8"
+  },
+  "mac_address": "E466B99CB95F",
+  "location": "SR7D Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5d9"
+  },
+  "mac_address": "FB1868AB3E1B",
+  "location": "SR7E",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5da"
+  },
+  "mac_address": "F2BA496C4BD1",
+  "location": "SR7E Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5db"
+  },
+  "mac_address": "D319E655E91C",
+  "location": "SR7E Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5dc"
+  },
+  "mac_address": "EBFA572D1DC2",
+  "location": "MR 7A",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5dd"
+  },
+  "mac_address": "FDF33DAEE5A4",
+  "location": "MR 7A",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5de"
+  },
+  "mac_address": "D11DC16A4F98",
+  "location": "MR 7A",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5df"
+  },
+  "mac_address": "C2BF4E1F0E2A",
+  "location": "Level 7 Lift Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5e0"
+  },
+  "mac_address": "C639BBBE3557",
+  "location": "Level 7 Lift Lobby",
+  "level": "Level 7"
+},{
+  "_id": {
+    "$oid": "616d218782e60a432400f5e1"
+  },
+  "mac_address": "DB0896A9CC33",
+  "location": "Level 7 Lift Lobby",
+  "level": "Level 7"
+}]
